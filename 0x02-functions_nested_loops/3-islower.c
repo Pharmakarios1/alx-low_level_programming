@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks if char is in lowercase.
- * c: - is the char to be checked
+ * @c: is the char to be checked
  * written by Pharm Akhigbe Blessed on 13/12/2022
  * Return: 1 if char is lowercase, otherwise 0
  */
