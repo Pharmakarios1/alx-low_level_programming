@@ -3,8 +3,7 @@
 /**
  * main - prints first 50 fibonacci numbers, starting with 1 and 2,
  * separated by a comma followed by a space.
- *
- * Return: always 0.
+ * Return: always 0 (success)
  */
 int main(void)
 {
