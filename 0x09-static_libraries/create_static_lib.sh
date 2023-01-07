@@ -1,6 +1,4 @@
 #!/bin/bash
-gcc -c *.c 
+gcc -Wall -pedantic -Werror -Werror  -c *.c 
 ar rcs liball.a *.o
-ar -t liball.a
 ranlib liball.a
-nm liball.a
