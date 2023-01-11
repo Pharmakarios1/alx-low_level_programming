@@ -1,16 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - this is a function to print its name
- * @argc: argc parameter to count argv elements
- * @argv: an array of a command listed
- * Exit: (EXIT_SUCCESS)
- * Return: 0 for success
+ * main - prints the name of a program
+ * @argc: array size or counts
+ * @argv: array countaining elements
+ *
+ * Return: 0 on success
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	(void)argc;
-	printf("%s\n", argv[0]);
-	exit(EXIT_SUCCESS);
+	puts(argv[argc - 1]);
+	return (0);
 }
